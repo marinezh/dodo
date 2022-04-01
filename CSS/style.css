@@ -1,0 +1,104 @@
+body {
+font-family: 'Nunito', sans-serif;
+color: #000;
+background: #fff;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+.container {
+max-width: 1060px;
+margin: 0 auto;
+box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+    color:  #000000;
+
+}
+
+.btn__mobile {
+    display: none;
+}
+
+.btn {
+display: block;
+padding: 9px 20px;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+color: #fff;
+background: #F96900;
+border-radius: 1000px;
+border: 0;
+cursor: pointer;
+
+}
+
+.btn__two {
+    display: block;
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color:#D15700;
+    background:#FFF0E6;
+    border-radius: 1000px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn__cola {
+    display: block;
+    padding: 9px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #73798C;
+    background:#F3F3F7;
+    border-radius: 1000px;
+    border: 0;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    
+}
+
+h2 {
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+text-align: left;
+margin-bottom: 40px;
+} 
+
+h3 {
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+margin-top: 5px;
+margin-bottom: 10px;
+margin-right: auto;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 19px; */
+    text-align: left;
+    color: #73798C;
+    /* min-height: 57px; */
+}

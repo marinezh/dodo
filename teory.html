@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teory.css" />
+    <title>Теория</title>
+    <style>
+        .grid_test {
+            display: grid;
+            grid-template-columns: 115px 173px;
+            row-gap: 16px;
+            border-bottom: 1px solid rgba(115, 121, 140, 0.2);
+        }
+
+        .grid_mobile {
+            grid-row: span 3;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="dishes_card grid_test">
+        <div class="grid_mobile">
+            <img src="img/pizza/halfs.png" alt="halfs">
+        </div>
+        <div class="description description_mobile">
+            <p>Пицца из половинок</p>
+            <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
+        </div>
+        <div class="price price_mobile">
+            <p>600 ₽</p>
+            <button class="btn btn_price">600 ₽</button>
+            <button class="btn btn_set" id="btn_screen" type="submit">Собрать</button>
+        </div>
+    </div>
+</body>
+
+</html>

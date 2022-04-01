@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/new.css">
+    <link rel="stylesheet" href="/CSS/pizzasection.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div>
+                    <picture>
+                        <source media="(max-width: 320px)" srcset="/image/logo/logo_mobile.svg">
+                        <img src="/image/logo.svg" alt="logo">
+                    </picture>
+                </div>
+                <div class="header__info">
+                    <a class="header__phone" href="tel:88003020060">8 800 302-00-60</a>
+                    <p class="header__description">Звонок бесплатный</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="mobile_order">
+            <nav>
+                <div class="container">
+                    <div class="menu__wrapper">
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#">Пицца</a></li>
+                            <li class="menu__item"><a href="#">Комбо</a></li>
+                            <li class="menu__item"><a href="#">Закуски</a></li>
+                            <li class="menu__item"><a href="#">Десерты</a></li>
+                            <li class="menu__item"><a href="#">Напитки</a></li>
+                            <li class="menu__item"><a href="#">Другие товары</a></li>
+                        </ul>
+                        <button class="btn">Корзина</button>
+                    </div>
+                </div>
+            </nav>
+
+            <section id="slider">
+                <div class="container">
+                    <div class="image__slider">
+                        <img src="/image/slider/slider/1.jpg" width="1060" height="300" alt="slider">
+                    </div>
+                </div>
+            </section>
+
+            <section class="new__popular">
+                <div class="container">
+                    <h2>Новое и популярное</h2>
+
+                    <div class="new__popular__wrap">
+                        <button class="newpop_btn">
+                            <div class="popular_wrap">
+                                <div class="img_new">
+                                    <img src="/image/new and pop/cecar.jpg" alt="cesar">
+                                </div>
+                                <div>
+                                    <p>Цезарь</p>
+                                    <span class="price">от 445 ₽</span>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="newpop_btn">
+                            <div class="popular_wrap">
+                                <div class="img_new">
+                                    <img src="/image/new and pop/salmon.jpg" alt="salmon">
+                                </div>
+                                <div>
+                                    <p>Нежный лосось</p>
+                                    <span class="price">от 495 ₽</span>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="newpop_btn">
+                            <div class="popular_wrap">
+                                <div class="img_new">
+                                    <img src="/image/new and pop/two_pizza.jpg" alt="twopizza">
+                                </div>
+                                <div>
+                                    <p>2 пиццы</p>
+                                    <span class="price">899 ₽</span>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="newpop_btn">
+                            <div class="popular_wrap">
+                                <div class="img_new">
+                                    <img src="/image/new and pop/karbonara.jpg" alt="karbonara">
+                                </div>
+                                <div>
+                                    <p>Карбонара</p>
+                                    <span class="price">от 395 ₽</span>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="pizza" class="product_section">
+            <div class="container">
+                <h2>Пицца</h2>
+                <div class="pizza__section__wrapper">
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3twoinone.jpg" alt="twoinone">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Пицца из половинок</h3>
+                            <p>Соберите свою пиццу 35 см с двумя разными вкусами</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 600 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">от 600 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3peperoni_heart.jpg" alt="peperoni_heart">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Пепперони-сердце</h3>
+                            <p>Пикантная пепперони, моцарелла, томатный соус</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 625 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 625 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3heart_pie.jpg" alt="heart_pie">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Пирог-сердце</h3>
+                            <p>Ананасы, брусника, сгущенное молоко</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 625 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 625 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3cheesy_chedder.jpg" alt="cheesy_chedder">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Чиззи чеддер</h3>
+                            <p>Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские
+                                травы
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 625 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 625 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3chicken_blucheese.jpg" alt="blucheese">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Цыпленок блю чиз</h3>
+                            <p>Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 445 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 445 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3gentle_salmon.jpg" alt="gentle_salmon">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Нежный лосось</h3>
+                            <p>Лосось, томаты черри, соус песто, моцарелла, соус альфредо
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 495 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 495 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3cheese.jpg" alt="cheese">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Сырная</h3>
+                            <p>Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 245 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 245 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/pizza/image 3peperoni.jpg" alt="peperoni">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Пепперони фреш</h3>
+                            <p>Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">от 245 ₽</span>
+                            <button class="btn__two">Выбрать</button>
+                            <button class="btn__mobile">от 245 ₽</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="kombo" class="product_section">
+            <div class="container">
+                <h2>Комбо</h2>
+                <div class="kombo__section__wrapper">
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3kombo.jpg" alt="kombo">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Комбо за 599 ₽</h3>
+                            <p>Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">599 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">599 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3kombo.jpg" alt="kombo">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>2 пиццы</h3>
+                            <p>Самое популярное комбо из 2 пицц 30 см. Большой выборс</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">899 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">899 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3kombo.jpg" alt="kombo">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>2 пиццы и закуска</h3>
+                            <p>2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">799 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">799 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3kombo.jpg" alt="kombo">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Пицца и 2 закуски</h3>
+                            <p>Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">799 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">799 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3kombo_three.jpg" alt="kombo_three">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Комбо за 999 ₽</h3>
+                            <p>3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">999 ₽</span>
+                            <button class="btn">Собрать</button>
+                            <button class="btn__mobile">999 ₽</button>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="snaks" class="product_section">
+            <div class="container">
+                <h2>Закуски</h2>
+                <div class="kombo__section__wrapper">
+                    <div class="snaks__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3soup.jpg" alt="soup">
+                        </div>
+                        <div class="snaks_description">
+                            <h3>Томатный суп с<br> гренками</h3>
+                            <p>Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">99 ₽</span>
+                            <button class="btn__two">В корзину</button>
+                            <button class="btn__mobile">99 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="snaks__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3soup.jpg" alt="soup">
+                        </div>
+                        <div class="snaks_description">
+                            <h3>Томатный суп с<br> митболами</h3>
+                            <p>Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских
+                                томатов</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">149 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">149 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="snaks__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3dodster.jpg" alt="kombo">
+                        </div>
+                        <div class="snaks_description">
+                            <h3>Додстер</h3>
+                            <p>Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой
+                                пшеничной лепешке</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="snaks__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3spacydodster.jpg" alt="kombo">
+                        </div>
+                        <div class="snaks_description">
+                            <h3>Острый Додстер</h3>
+                            <p>Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами,
+                                моцареллой и соусом барбекю в тонкой пшеничной лепешке
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="snaks__card">
+                        <div class="product__img">
+                            <img src="/image/combo_snaks/image 3chipotle.jpg" alt="kombo_three">
+                        </div>
+                        <div class="snaks_description">
+                            <h3>Додстер Чипотле</h3>
+                            <p>Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами,
+                                моцареллой в тонкой пшеничной лепешке
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+        </section>
+
+        <section id="deserts" class="product_section">
+            <div class="container">
+                <h2>Десерты</h2>
+                <div class="kombo__section__wrapper">
+                    <div class="desert__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/applepie.jpg" alt="applepie">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Яблочный пирог</h3>
+                            <p>Десерт из песочного теста с яблочной начинкой. Может содержать изюм</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">99 ₽</span>
+                            <button class="btn__two">В корзину</button>
+                            <button class="btn__mobile">99 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="desert__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/cheesecake.jpg" alt="cheesecake">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Чизкейк Нью-Йорк</h3>
+                            <p>Классический американский творожный десерт</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">149 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">149</button>
+                        </div>
+                    </div>
+
+                    <div class="desert__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/fondan.jpg" alt="fondan">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Фонданы, 2 шт</h3>
+                            <p>Два десерта с хрустящей<br> корочкой и топлёной<br> шоколадной начинкой</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="desert__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/milkshakeoreo.jpg" alt="milkshakeoreo">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Молочный коктейль с печеньем Орео</h3>
+                            <p>Напиток из молока и мороженого с добавлением дробленого печенья «Орео»
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="desert__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/milkshake.jpg" alt="milkshake">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Классический молочный коктейль</h3>
+                            <p>Напиток из молока и мороженого
+                            </p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+        </section>
+
+        <section id="drinks" class="product_section">
+            <div class="container">
+                <h2>Напитки</h2>
+                <div class="kombo__section__wrapper">
+                    <div class="drink__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/twococa.jpg" alt="twococa">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>2 Coca-Cola по суперцене</h3>
+                            <p>Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">99 ₽</span>
+                            <button class="btn__two">В корзину</button>
+                            <button class="btn__mobile">99 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="drink__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/colaorange.jpg" alt="colaorange">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Coca-Cola Orange</h3>
+                            <p>0,5 л</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">149 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">149 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="drink__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/colazero.jpg" alt="colazero">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Coca-Cola Zero</h3>
+                            <p>0,5 л</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="drink__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/cola.jpg" alt="cola">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Coca-Cola</h3>
+                            <p>0,5 л</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn__cola"> - 3 + </button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+
+                    <div class="drink__card">
+                        <div class="product__img">
+                            <img src="/image/desserts/colavanilla.jpg" alt="colavanilla">
+                        </div>
+                        <div class="pizza_description">
+                            <h3>Coca-Cola Vanilla</h3>
+                            <p>0,5 л</p>
+                        </div>
+                        <div class="price_plus_button">
+                            <span class="price">159 ₽</span>
+                            <button class="btn">В корзину</button>
+                            <button class="btn__mobile">159 ₽</button>
+                        </div>
+                    </div>
+        </section>
+
+
+    </main>
+    <footer style="display:none">
+        <div class="container">
+            <div class="footer_firstpart">
+                <div class="navigation">
+                    <ul>
+                        <li class="title_li"><a href="#">Додо Пицца</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Додо-книга</a></li>
+                        <li><a href="#">Блог «Сила ума»</a></li>
+                        <li><a href="#">Додо ИС</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="title_li"><a href="#">Работа</a></li>
+                        <li><a href="#">В пиццерии</a></li>
+                        <li><a href="#">В контакт-<br>центре</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="title_li"><a href="#">Партнерам</a></li>
+                        <li><a href="#">Франшиза</a></li>
+                        <li><a href="#">Инвестиции</a></li>
+                        <li><a href="#">Поставщикам</a></li>
+                        <li><a href="#">Предложить<br>помещение</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="title_li"><a href="#">Это интересно</a></li>
+                        <li><a href="#">Экскурсии и <br>мастер-классы</a></li>
+                        <li><a href="#">Корпоративные<br>заказы</a></li>
+                    </ul>
+                </div>
+                <div class="contact_info">
+                    <div class="contact__logo">
+                        <div class="contact__img">
+                            <img src="/image/contacts/playgoogle.jpg" alt="googlepay">
+                        </div>
+                        <div class="contact__img">
+                            <img src="/image/contacts/appstore.jpg" alt="appstore">
+                        </div>
+                    </div>
+                    <a class="number" href="tel:88003020060">8-800-302-00-600</a>
+                    <p class="call__footer">Звонок бесплатный</p>
+                    <p class="email">feedback@dodopizza.com</p>
+                </div>
+            </div>
+            <div class="footer_secondpart">
+                <div class="info__one">
+                    <p class="income_quantity">1 396 362 874 ₽</p>
+                    <p class="info_about">Выручка российской сети в этом<br>месяце. В прошлом — 2 460 305
+                        416 ₽</p>
+                </div>
+                <div class="info__one">
+                    <p class="income_quantity">688 пиццерий</p>
+                    <p class="info_about">в 14 странах, включая Китай,<br> США и Великобританию</p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_underline">
+                <div class="dodo_logo">
+                    <div class="img__logo">
+                        <img src="/image/socialmedia/Groupdodo.svg" alt="додопицца">
+                    </div>
+                    <p>&copy; 2021</p>
+                </div>
+                <div class="additional__inf">
+                    <a href="#">Правовая информация</a>
+                    <a href="#">Калорийность и состав</a>
+                    <a href="#">Помощь</a>
+                </div>
+                <div class="social__media">
+                    <a href="#"><img src="/image/socialmedia/fb.svg" alt="facebook"></a>
+                    <a href="#"><img src="/image/socialmedia/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="/image/socialmedia/okodnoklassniki.svg" alt="okodnoklassniki"></a>
+                    <a href="#"><img src="/image/socialmedia/vk.svg" alt="vk"></a>
+                    <a href="#"><img src="/image/socialmedia/youtube.svg" alt="youtube"></a>
+                </div>
+
+
+            </div>
+
+
+
+    </footer>
+</body>
+
+</html>
